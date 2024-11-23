@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+  color: white;
+  background: linear-gradient(to top, #30cfd0 0%, #330867 100%) no-repeat
+    center/cover;
+}
+.container {
+  margin: 0 auto;
+  max-width: 60%;
+  padding: 100px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: rgb(247, 225, 225);
+}
+ul {
+  list-style: none;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.nav-bar {
+  display: flex;
+  gap: 30px;
+}
+.images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.profile-picture {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+.interests-images-1 {
+  display: flex;
+  flex-direction: column;
+}
+.interests-images-2 {
+  display: flex;
+  flex-direction: column;
+}
+.interests-images-2 img {
+  margin: 10px;
+  width: 250px;
+  border-radius: 10px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+}
+.interests-images-1 img {
+  margin: 10px;
+  width: 250px;
+  border-radius: 10px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+}
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(106, 106, 106);
+  border-radius: 20px;
+}
+.about-me p {
+  font-size: 24px;
+  font-weight: medium;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 20px;
+}
+.interest-section {
+  margin: 50px;
+}
+.interest-section h1 {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+.aviation-interest {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 35px;
+  font-size: 24px;
+}
+.aviation-image img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+.basketball-interest {
+  display: flex;
+  margin-top: 50px;
+  gap: 35px;
+  font-size: 24px;
+}
+.basketball-image img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+.football-interest {
+  display: flex;
+  margin-top: 50px;
+  gap: 35px;
+  font-size: 24px;
+}
+.football-image img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+.coding-interest {
+  display: flex;
+  margin-top: 50px;
+  gap: 35px;
+  font-size: 24px;
+}
+
+.coding-image img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  border: 1px rgb(58, 64, 64) solid;
+  padding: 21px;
+}
+.social-media-icons a i {
+  font-size: 25px;
+}
